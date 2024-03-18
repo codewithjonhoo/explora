@@ -79,3 +79,4 @@ impl Camera {
         Vec3::new(f32::cos(self.rotation.x), 0.0, -f32::sin(self.rotation.x)).normalized()
     }
 }
+
